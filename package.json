@@ -5,6 +5,7 @@
     "dev": "next dev",
     "format:check": "prettier --check \"**/*.{ts,tsx,mjs,js,jsx,mdx,md,css,json}\" --cache",
     "format:write": "prettier --write \"**/*.{ts,tsx,mjs,js,jsx,mdx,md,css,json}\" --cache",
+    "lint": "next lint",
     "start": "next start"
   },
   "dependencies": {
@@ -30,6 +31,7 @@
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "@vercel/style-guide": "^6.0.0",
+    "eslint-config-next": "14.2.4",
     "prettier": "^3.3.2",
     "prettier-plugin-tailwindcss": "^0.6.5"
   },
